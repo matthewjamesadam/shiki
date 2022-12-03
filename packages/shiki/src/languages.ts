@@ -703,7 +703,7 @@ export const languages: ILanguageRegistration[] = [
     scopeName: 'text.pug',
     path: 'pug.tmLanguage.json',
     aliases: ['jade'],
-    embeddedLangs: ['javascript', 'css', 'sass', 'stylus', 'coffee', 'html']
+    embeddedLangs: ['javascript', 'css', 'sass', 'scss', 'stylus', 'coffee', 'html']
   },
   {
     id: 'puppet',
