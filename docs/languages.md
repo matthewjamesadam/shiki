@@ -112,6 +112,7 @@ export type Lang =
   | 'jinja-html'
   | 'json'
   | 'jsonc'
+  | 'jsonl'
   | 'jsonnet'
   | 'jssm' | 'fsl'
   | 'jsx'
