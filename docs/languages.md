@@ -164,6 +164,7 @@ export type Lang =
   | 'shaderlab' | 'shader'
   | 'shellscript' | 'shell' | 'bash' | 'sh' | 'zsh'
   | 'smalltalk'
+  | 'snippets'
   | 'solidity'
   | 'sparql'
   | 'sql'

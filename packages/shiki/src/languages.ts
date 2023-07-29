@@ -114,6 +114,7 @@ export type Lang =
   | 'shaderlab' | 'shader'
   | 'shellscript' | 'shell' | 'bash' | 'sh' | 'zsh'
   | 'smalltalk'
+  | 'snippets'
   | 'solidity'
   | 'sparql'
   | 'sql'
@@ -820,6 +821,11 @@ export const languages: ILanguageRegistration[] = [
     id: 'smalltalk',
     scopeName: 'source.smalltalk',
     path: 'smalltalk.tmLanguage.json'
+  },
+  {
+    id: 'snippets',
+    scopeName: 'source.json.comments.snippets',
+    path: 'snippets.tmLanguage.json'
   },
   {
     id: 'solidity',
